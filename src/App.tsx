@@ -7,6 +7,16 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import PostalDonation from "./pages/PostalDonation";
+import About from "./pages/About";
+import Impact from "./pages/Impact";
+import Gallery from "./pages/Gallery";
+import Projects from "./pages/Projects";
+import FuturePlans from "./pages/FuturePlans";
+import Donate from "./pages/Donate";
+import Partners from "./pages/Partners";
+import BecomeMember from "./pages/BecomeMember";
+import Contact from "./pages/Contact";
+import FAQ from "./pages/FAQ";
 
 const queryClient = new QueryClient();
 
@@ -18,17 +28,17 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/about" element={<NotFound />} />
-          <Route path="/impact" element={<NotFound />} />
-          <Route path="/gallery" element={<NotFound />} />
-          <Route path="/projects" element={<NotFound />} />
-          <Route path="/future-plans" element={<NotFound />} />
-          <Route path="/donate" element={<NotFound />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/impact" element={<Impact />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/future-plans" element={<FuturePlans />} />
+          <Route path="/donate" element={<Donate />} />
           <Route path="/postal-donation" element={<PostalDonation />} />
-          <Route path="/partners" element={<NotFound />} />
-          <Route path="/become-member" element={<NotFound />} />
-          <Route path="/contact" element={<NotFound />} />
-          <Route path="/faq" element={<NotFound />} />
+          <Route path="/partners" element={<Partners />} />
+          <Route path="/become-member" element={<BecomeMember />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/faq" element={<FAQ />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
