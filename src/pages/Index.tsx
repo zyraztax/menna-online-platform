@@ -1,11 +1,10 @@
-
 import { Link } from "react-router-dom";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { BankCardIcon, Gift, School, Home, Utensils, Heart, MoveRight } from "lucide-react";
+import { CreditCard, Gift, School, Home, Utensils, Heart, MoveRight } from "lucide-react";
 
 const HomePage = () => {
   return (
@@ -99,7 +98,7 @@ const HomePage = () => {
                   <div className="h-48 bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1584362917165-526a968579e8?q=80&w=1000&auto=format&fit=crop')" }}></div>
                   <CardHeader>
                     <CardTitle className="text-menna-teal flex items-center">
-                      <BankCardIcon className="mr-2 h-5 w-5" />
+                      <CreditCard className="mr-2 h-5 w-5" />
                       Medical Support
                     </CardTitle>
                   </CardHeader>
