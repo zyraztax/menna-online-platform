@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
@@ -195,13 +196,13 @@ const HomePage = () => {
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="flex flex-col items-center">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/d/d3/Commercial_Bank_of_Ethiopia_%28logo%29.png" alt="Commercial Bank of Ethiopia" className="h-12 mb-4" />
+                    <img src="/lovable-uploads/8f83c07d-b401-4841-b56d-98d88cf334bf.png" alt="Commercial Bank of Ethiopia" className="h-12 mb-4" />
                     <p className="font-semibold">Account Number:</p>
                     <p>1000089064868</p>
                   </div>
                   
                   <div className="flex flex-col items-center">
-                    <img src="https://play-lh.googleusercontent.com/FbqPYFHMXLwwdnduiHN63k-iiDIiScxm9TPv5yXQo-cQCBMIagZw9v-U8KcK47-I2u4" alt="Telebirr" className="h-12 mb-4" />
+                    <img src="/lovable-uploads/e00e8030-9c5d-4ea3-941a-eaecd0b25b11.png" alt="Telebirr" className="h-12 mb-4" />
                     <p className="font-semibold">Telebirr:</p>
                     <p>+251 934641309</p>
                   </div>
@@ -214,7 +215,7 @@ const HomePage = () => {
                     rel="noopener noreferrer"
                     className="text-menna-red hover:underline inline-flex items-center"
                   >
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/GoFundMe_logo.svg/1200px-GoFundMe_logo.svg.png" alt="GoFundMe" className="h-8 mr-2" />
+                    <img src="/lovable-uploads/dbc14c8e-b702-40b8-8f87-c36c04b26e3c.png" alt="GoFundMe" className="h-8 mr-2" />
                     Support us on GoFundMe
                   </a>
                 </div>
@@ -266,18 +267,18 @@ const HomePage = () => {
               
               <div className="partner-carousel mt-8">
                 <div className="partner-carousel-inner flex gap-12">
-                  <img src="https://upload.wikimedia.org/wikipedia/en/d/d3/Commercial_Bank_of_Ethiopia_%28logo%29.png" alt="Commercial Bank of Ethiopia" className="partner-logo" />
-                  <img src="https://www.ethiotelecom.et/wp-content/uploads/2023/02/et-logo.svg" alt="Ethio Telecom" className="partner-logo" />
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/University_of_Gondar_Logo.jpg" alt="University of Gondar" className="partner-logo" />
-                  <img src="https://www.abaybank.com.et/abay-content/uploads/2021/08/logo.png" alt="Abay Bank" className="partner-logo" />
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/GoFundMe_logo.svg/1200px-GoFundMe_logo.svg.png" alt="GoFundMe" className="partner-logo" />
+                  <img src="/lovable-uploads/8f83c07d-b401-4841-b56d-98d88cf334bf.png" alt="Commercial Bank of Ethiopia" className="partner-logo" />
+                  <img src="/lovable-uploads/e00e8030-9c5d-4ea3-941a-eaecd0b25b11.png" alt="Ethio Telecom" className="partner-logo" />
+                  <img src="/lovable-uploads/df0ced1e-cde8-4d47-8355-b2618d5b184e.png" alt="University of Gondar" className="partner-logo" />
+                  <img src="/lovable-uploads/38752328-33a0-4cf6-9c9d-88c0a9d3d969.png" alt="Abay Bank" className="partner-logo" />
+                  <img src="/lovable-uploads/dbc14c8e-b702-40b8-8f87-c36c04b26e3c.png" alt="GoFundMe" className="partner-logo" />
                   
                   {/* Duplicate for continuous loop */}
-                  <img src="https://upload.wikimedia.org/wikipedia/en/d/d3/Commercial_Bank_of_Ethiopia_%28logo%29.png" alt="Commercial Bank of Ethiopia" className="partner-logo" />
-                  <img src="https://www.ethiotelecom.et/wp-content/uploads/2023/02/et-logo.svg" alt="Ethio Telecom" className="partner-logo" />
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/University_of_Gondar_Logo.jpg" alt="University of Gondar" className="partner-logo" />
-                  <img src="https://www.abaybank.com.et/abay-content/uploads/2021/08/logo.png" alt="Abay Bank" className="partner-logo" />
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/GoFundMe_logo.svg/1200px-GoFundMe_logo.svg.png" alt="GoFundMe" className="partner-logo" />
+                  <img src="/lovable-uploads/8f83c07d-b401-4841-b56d-98d88cf334bf.png" alt="Commercial Bank of Ethiopia" className="partner-logo" />
+                  <img src="/lovable-uploads/e00e8030-9c5d-4ea3-941a-eaecd0b25b11.png" alt="Ethio Telecom" className="partner-logo" />
+                  <img src="/lovable-uploads/df0ced1e-cde8-4d47-8355-b2618d5b184e.png" alt="University of Gondar" className="partner-logo" />
+                  <img src="/lovable-uploads/38752328-33a0-4cf6-9c9d-88c0a9d3d969.png" alt="Abay Bank" className="partner-logo" />
+                  <img src="/lovable-uploads/dbc14c8e-b702-40b8-8f87-c36c04b26e3c.png" alt="GoFundMe" className="partner-logo" />
                 </div>
               </div>
             </div>
